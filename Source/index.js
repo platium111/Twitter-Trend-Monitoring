@@ -26,6 +26,8 @@ mongoose.connect(dbConfig.url)
 require('./routes/note.routes')(app);
 require('./routes/video.routes')(app);
 require('./routes/app.routes')(app);
+require('./routes/trend.routes')(app);
+
 
 
 app.get('/', function (req, res) {
