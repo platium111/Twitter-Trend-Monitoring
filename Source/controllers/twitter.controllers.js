@@ -18,7 +18,7 @@ exports.getTweets = () => {
         console.log(parseData);
     };
 
-    var Twitter = require('twitter-node-client').Twitter;
+    var Twitter = require('../libs/Twitter').Twitter;
 
     const config = {
         "consumerKey": "VbGdE51tbP0yAlyfSI03wXZYL",
